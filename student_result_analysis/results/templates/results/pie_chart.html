@@ -1,0 +1,15 @@
+{% extends 'results/base.html' %}
+
+{% block content %}
+
+<h2 class="text-center">Student pass and fail</h2>
+
+<div class="text-center">
+    <img src="data:image/png;base64,{{ graph }}" alt="Pie Chart">
+</div>
+
+<a href="{% url 'home' %}" class="btn btn-dark mt-3">
+    Back to Dashboard
+</a>
+
+{% endblock %}

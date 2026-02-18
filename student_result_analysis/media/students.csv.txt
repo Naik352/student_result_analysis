@@ -1,0 +1,6 @@
+name,roll_number,math_marks,science_marks,english_marks
+John,101,90,85,88
+Alice,102,95,92,90
+Bob,103,80,78,85
+jaya,78,67,56,56
+nithu,45,78,76,56
